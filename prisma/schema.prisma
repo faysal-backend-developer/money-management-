@@ -34,7 +34,7 @@ model Transactions {
   userId String
   type String @default("income")
   category String
-  categoryId String
+  categoryIcon String
 }
 
 model MonthHistory {
